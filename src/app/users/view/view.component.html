@@ -1,6 +1,6 @@
 <div class="container" *ngIf="show">
   <span>
-    <h3>NO DATA</h3>
+    <h3>Enter Data</h3>
   </span>
 </div>
 
@@ -8,7 +8,7 @@
   <div class="grid-item" *ngFor="let item of datas">
     <div class="row">
       <div class="col-sm-3 col-md-3 col-lg-3">
-        <span class="viewdata">Image:</span>
+        <span class="viewdata">Image</span>
       </div>
       <div class="col-sm col-md col-lg">
         <span class="displaydata"
@@ -18,7 +18,7 @@
     </div>
     <div class="row">
       <div class="col-sm-3 col-md-3 col-lg-3">
-        <span class="viewdata">Name:</span>
+        <span class="viewdata">Name</span>
       </div>
       <div class="col-sm col-md col-lg">
         <span class="displaydata">{{ item.name }}</span>
@@ -26,7 +26,7 @@
     </div>
     <div class="row">
       <div class="col-sm-3 col-md-3 col-lg-3">
-        <span class="viewdata">Email:</span>
+        <span class="viewdata">Email</span>
       </div>
       <div class="col-sm col-md col-lg">
         <span class="displaydata">{{ item.email }}</span>
@@ -34,7 +34,7 @@
     </div>
     <div class="row">
       <div class="col-sm-3 col-md-3 col-lg-3">
-        <span class="viewdata">Mobile:</span>
+        <span class="viewdata">Mobile</span>
       </div>
       <div class="col-sm col-md col-lg">
         <span class="displaydata">{{ item.mobile }}</span>
@@ -42,7 +42,7 @@
     </div>
     <div class="row">
       <div class="col-sm-3 col-md-3 col-lg-3">
-        <span class="viewdata">Gender:</span>
+        <span class="viewdata">Gender</span>
       </div>
       <div class="col-sm col-md col-lg">
         <span class="displaydata">{{ item.gender }}</span>
@@ -50,7 +50,7 @@
     </div>
     <div class="row">
       <div class="col-sm-3 col-md-3 col-lg-3">
-        <span class="viewdata">Category:</span>
+        <span class="viewdata">Category</span>
       </div>
       <div class="col-sm col-md col-lg">
         <span class="displaydata">{{ item.category }}</span>
@@ -58,11 +58,12 @@
     </div>
     <div class="row">
       <div class="col-sm-3 col-md-3 col-lg-3">
-        <span class="viewdata">Technology:</span>
+        <span class="viewdata">Technology</span>
       </div>
       <div class="col-sm col-md col-lg">
         <span class="displaydata">{{ item.technology }}</span>
       </div>
     </div>
+    <button>Remove Data</button>
   </div>
 </div>

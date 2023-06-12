@@ -39,20 +39,20 @@
   
       <div class="mb-2">
           <label>Technology</label>
-          <div class="form-check checkbox technology_css">
+          <div class="form-check checkbox ">
               
             <input class="form-check-input" type="checkbox" value="C" id="C" (change)="technology1checked($event);">
             <label class="form-check-label">C</label>
           </div>
-          <div class="form-check checkbox technology_css">
+          <div class="form-check checkbox ">
               <input class="form-check-input" type="checkbox"  value="C++" id="C++"  (change)="technology2checked($event);">
               <label class="form-check-label">C++</label>
           </div>
-          <div class="form-check checkbox technology_css">
+          <div class="form-check checkbox ">
               <input class="form-check-input" type="checkbox" value="Java" id="Java" (change)="technology3checked($event);">
               <label class="form-check-label">Java</label>
           </div>
-          <div class="form-check checkbox technology_css">
+          <div class="form-check checkbox ">
               <input class="form-check-input" type="checkbox"  value="JavaScript" id="JavaScript"  (change)="technology4checked($event);">
               <label class="form-check-label">JavaScript</label>
           </div>
@@ -65,5 +65,3 @@
       <button class="previewbutton" [disabled]="loginForm.invalid || showError===true" (click)="open()">Preview</button>
     </div>
 </form>
-
-  

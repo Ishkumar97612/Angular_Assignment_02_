@@ -16,11 +16,11 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 10px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .grid-item {
-  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+  background: linear-gradient(to right, #3b3c3f, #c2e9fb);
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
   font-size: 18px;
@@ -44,6 +44,7 @@ img {
 
 .viewdata {
   font-weight: bold;
+  margin-left: -20px;
 }
 
 .row {
